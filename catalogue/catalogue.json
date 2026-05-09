@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-09T00:00:00Z",
+  "models": [
+    {
+      "id": "kokoro",
+      "display_name": "Kokoro",
+      "modality": "tts",
+      "license": "Apache-2.0",
+      "min_vram_gb": 0,
+      "disk_size_gb": 0.5,
+      "docker_image": "docker.io/appsork/aura-kokoro:latest",
+      "hf_repo": "hexgrad/Kokoro-82M",
+      "quality_score": 0.88,
+      "speed_rating": "fast",
+      "requires_aura": "0.1.0"
+    },
+    {
+      "id": "ace-step-1.5",
+      "display_name": "ACE-Step 1.5",
+      "modality": "music",
+      "license": "Apache-2.0",
+      "min_vram_gb": 4.0,
+      "disk_size_gb": 8.5,
+      "docker_image": "docker.io/appsork/aura-ace-step:latest",
+      "hf_repo": "ACE-Step/ACE-Step-v1",
+      "quality_score": 0.92,
+      "speed_rating": "fast",
+      "requires_aura": "0.1.0"
+    },
+    {
+      "id": "whisper-large-v3",
+      "display_name": "Whisper Large v3",
+      "modality": "stt",
+      "license": "MIT",
+      "min_vram_gb": 0,
+      "disk_size_gb": 3.1,
+      "docker_image": "docker.io/appsork/aura-whisper:latest",
+      "hf_repo": "openai/whisper-large-v3",
+      "quality_score": 0.95,
+      "speed_rating": "medium",
+      "requires_aura": "0.1.0"
+    },
+    {
+      "id": "chatterbox",
+      "display_name": "Chatterbox",
+      "modality": "clone",
+      "license": "MIT",
+      "min_vram_gb": 4.0,
+      "disk_size_gb": 2.0,
+      "docker_image": "docker.io/appsork/aura-chatterbox:latest",
+      "hf_repo": "ResembleAI/chatterbox",
+      "quality_score": 0.90,
+      "speed_rating": "medium",
+      "requires_aura": "0.1.0"
+    }
+  ]
+}
