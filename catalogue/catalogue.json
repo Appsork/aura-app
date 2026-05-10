@@ -57,8 +57,8 @@
   ],
   "features": [
     {
-      "id": "voiceover AI",
-      "name": "Voiceover",
+      "id": "voiceover",
+      "name": "Voiceover AI",
       "description": "Generate natural-sounding speech from text.",
       "modality": "tts",
       "primary_model_id": "kokoro",
