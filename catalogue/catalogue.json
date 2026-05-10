@@ -4,7 +4,7 @@
   "models": [
     {
       "id": "kokoro",
-      "display_name": "Kokoro",
+      "display_name": "Kokoro AI",
       "modality": "tts",
       "license": "Apache-2.0",
       "min_vram_gb": 0,
@@ -57,7 +57,7 @@
   ],
   "features": [
     {
-      "id": "voiceover",
+      "id": "voiceover AI",
       "name": "Voiceover",
       "description": "Generate natural-sounding speech from text.",
       "modality": "tts",
