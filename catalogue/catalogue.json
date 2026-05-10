@@ -4,7 +4,7 @@
   "models": [
     {
       "id": "kokoro",
-      "display_name": "Kokoro TTS",
+      "display_name": "Kokoro",
       "modality": "tts",
       "license": "Apache-2.0",
       "min_vram_gb": 0,
@@ -74,7 +74,7 @@
     },
     {
       "id": "clone-voice",
-      "name": "Clone Voice AI",
+      "name": "Clone Voice",
       "description": "Clone a voice from a short reference audio sample.",
       "modality": "clone",
       "primary_model_id": "chatterbox",
