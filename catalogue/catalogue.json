@@ -8,7 +8,11 @@
       "description": "Generate natural-sounding speech from text.",
       "modality": "tts",
       "primary_model_id": "kokoro",
-      "icon": "microphone"
+      "icon": "microphone",
+      "version": "1.0.0",
+      "layout": "aggregator-3panel",
+      "accepts": [],
+      "permissions": []
     },
     {
       "id": "music",
@@ -16,7 +20,11 @@
       "description": "Generate music tracks from a text prompt.",
       "modality": "music",
       "primary_model_id": "ace-step-1.5",
-      "icon": "music"
+      "icon": "music",
+      "version": "1.0.0",
+      "layout": "aggregator-3panel",
+      "accepts": [],
+      "permissions": []
     },
     {
       "id": "clone-voice",
@@ -24,7 +32,11 @@
       "description": "Clone a voice from a short reference audio sample.",
       "modality": "clone",
       "primary_model_id": "chatterbox",
-      "icon": "waveform"
+      "icon": "waveform",
+      "version": "1.0.0",
+      "layout": "aggregator-3panel",
+      "accepts": [{"target_field": "file", "source_modalities": ["tts", "music", "clone"]}],
+      "permissions": []
     },
     {
       "id": "transcribe",
@@ -32,7 +44,11 @@
       "description": "Transcribe audio files to text with optional word-level timestamps.",
       "modality": "stt",
       "primary_model_id": "whisper-large-v3",
-      "icon": "file-text"
+      "icon": "file-text",
+      "version": "1.0.0",
+      "layout": "aggregator-3panel",
+      "accepts": [{"target_field": "file", "source_modalities": ["tts", "music", "clone"]}],
+      "permissions": []
     }
   ],
   "models": [
