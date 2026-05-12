@@ -85,7 +85,7 @@
       "license": "MIT",
       "min_vram_gb": 0,
       "disk_size_gb": 3.1,
-      "docker_image": "docker.io/appsork/aura-whisper:v3"",
+      "docker_image": "docker.io/appsork/aura-whisper:v3",
       "hf_repo": "openai/whisper-large-v3",
       "quality_score": 0.95,
       "speed_rating": "medium",
